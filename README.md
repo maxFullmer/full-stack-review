@@ -1,4 +1,6 @@
-# AREA 51 kill counter
+# AREA 51
+
+full stack app review based on the area 51 raid joke/meme
 
 ## client
 
