@@ -57,7 +57,8 @@
     - middlewares
         - middleware.js
     - controller
-        - killCountController
+        - killCountController.js
+        - authController.js
 
 ### endpoints
 
@@ -71,7 +72,7 @@
 **kill Count Endpoints**
 
 - getAllUsers: => /api/users
-- killUser: => /api/killUser
+- killUser: => /api/kill_User
 - updateDistance: => /api/distance
 - deleteUser: => /api/obliterate
 
@@ -97,6 +98,5 @@ create table profile(
     alive boolean default true,
     distance float,
     user_id integer references users(user_id)
-
-)
+);
 ```
